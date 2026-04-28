@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "name": "vercel-xhttp-relay",
+  "name": "edge-gateway",
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 60
+    }
+  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
   ],
   "trailingSlash": false
 }
