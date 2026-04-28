@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "edge-gateway",
+  "name": "edgee-gateway",
   "functions": {
     "api/index.js": {
       "maxDuration": 60
