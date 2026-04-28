@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "name": "sub",
+  "name": "my-portfolio-api",
   "functions": {
-    "api/index.js": {
+    "api/server.js": {
       "maxDuration": 60
     }
   },
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/index"
+      "destination": "/api/server"
     }
   ],
   "trailingSlash": false
